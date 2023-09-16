@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - mafft=7.453
+  - trimal=1.4.1
