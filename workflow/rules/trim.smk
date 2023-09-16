@@ -1,3 +1,13 @@
+rule from_trimal_to_tree:
+    input:
+        "../results/trimal.fasta"
+    output:
+        "../results/tree"
+    conda:
+        "../envs/environment.yaml"
+    shell:
+        "fasttree {input} > {output}"
+
 rule from_mafft_to_trimal:
     input:
         "../results/mafft.fasta"

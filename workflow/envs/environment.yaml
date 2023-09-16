@@ -4,3 +4,4 @@ channels:
 dependencies:
   - mafft=7.453
   - trimal=1.4.1
+  - fasttree=2.1.9

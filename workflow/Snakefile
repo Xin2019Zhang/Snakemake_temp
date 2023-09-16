@@ -10,4 +10,4 @@ include: "rules/trim.smk"
 
 rule all:
     input:
-        "../results/trimal.fasta"
+        "../results/tree"
